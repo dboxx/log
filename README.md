@@ -1,2 +1,1 @@
-# log
-Logger interface
+# The DBoxX documentation
