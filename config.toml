@@ -1,0 +1,66 @@
+baseURL = "http://dboxx.io/"
+title = "Digital Box {X}"
+theme = "dark"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = false
+disableBrowserError = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+contentDir = "content/en"
+
+timeout = 3000
+
+[outputs]
+home = [ "HTML" ]
+page = [ "HTML"]
+section = [ "HTML"]
+
+[params]
+
+home= "Home"
+logo = "images/logo.png"
+
+deprecated = false
+
+# Language definitions.
+
+[languages]
+
+[languages.en]
+title = "Digital Box {X}"
+description = "Digital box of explorations"
+languageCode = "en-us"
+languageName ="English"
+# Weight used for sorting.
+weight = 1
+
+[languages.ru]
+title = "Digital Box {X}"
+description = "Digital box of explorations"
+languageCode = "ru-ru"
+languageName ="Russion"
+# Weight used for sorting.
+weight = 2
+contentDir = "content/ru"
+
+# footer
+[params.footer]
+copyright = "DBoxX"
+copyrightURL = "http://dboxx.io"
+
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-github"
+url = "#"
+
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-dockerhub"
+url = "#"
+
+# social Icons
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-linkedin"
+url = "#"
+
